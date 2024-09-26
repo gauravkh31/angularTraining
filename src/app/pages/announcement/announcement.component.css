@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.announcement-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+.announcement {
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px 0;
+}
+
+.announcement h2 {
+    color: #007bff;
+}
+
+.announcement p {
+    color: #343a40;
+}
