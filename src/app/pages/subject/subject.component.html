@@ -1,1 +1,25 @@
-<p>subject works!</p>
+
+<body>
+    <div class="container">
+        <h1>Subject Management</h1>
+        <form id="subjectForm">
+            <label for="subjectName">Subject Name:</label>
+            <input type="text" id="subjectName" name="subjectName" required>
+            
+            <label for="subjectCode">Subject Code:</label>
+            <input type="text" id="subjectCode" name="subjectCode" required>
+            
+            <label for="instructorName">Instructor Name:</label>
+            <input type="text" id="instructorName" name="instructorName" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="subjectList">
+            <h2>Subject Records</h2>
+            <ul id="list">
+                <!-- Subject records will be displayed here -->
+            </ul>
+        </div>
+    </div>
+</body>

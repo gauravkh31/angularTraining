@@ -1,1 +1,26 @@
-<p>laundry works!</p>
+
+<body>
+    <div class="container">
+        <h1>Laundry Management</h1>
+        <form id="laundryForm">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+            
+            <label for="studentID">Student ID:</label>
+            <input type="text" id="studentID" name="studentID" required>
+            
+            <label for="laundryItems">Laundry Items:</label>
+            <textarea id="laundryItems" name="laundryItems" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="laundryList">
+            <h2>Laundry Records</h2>
+            <ul id="list">
+                <!-- Laundry records will be displayed here -->
+            </ul>
+        </div>
+    </div>
+</body>
+

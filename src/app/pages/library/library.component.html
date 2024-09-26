@@ -1,1 +1,25 @@
-<p>library works!</p>
+
+<body>
+    <div class="container">
+        <h1>Library Management</h1>
+        <form id="libraryForm">
+            <label for="bookTitle">Book Title:</label>
+            <input type="text" id="bookTitle" name="bookTitle" required>
+            
+            <label for="authorName">Author Name:</label>
+            <input type="text" id="authorName" name="authorName" required>
+            
+            <label for="isbn">ISBN:</label>
+            <input type="text" id="isbn" name="isbn" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="libraryList">
+            <h2>Library Records</h2>
+            <ul id="list">
+                <!-- Library records will be displayed here -->
+            </ul>
+        </div>
+    </div>
+</body>

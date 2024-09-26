@@ -1,1 +1,27 @@
-<p>feedback works!</p>
+
+<body>
+    <div class="container">
+        <h1>Feedback Page</h1>
+        <form id="feedbackForm">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+            
+            <label for="studentID">Student ID:</label>
+            <input type="text" id="studentID" name="studentID" required>
+            
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="feedbackList">
+            <h2>Feedback Records</h2>
+            <ul id="list">
+                <!-- Feedback records will be displayed here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+

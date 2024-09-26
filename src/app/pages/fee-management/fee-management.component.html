@@ -1,1 +1,34 @@
-<p>fee-management works!</p>
+
+<body>
+    <div class="container">
+        <h1>Fee Management</h1>
+        <form id="feeForm">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+            
+            <label for="studentID">Student ID:</label>
+            <input type="text" id="studentID" name="studentID" required>
+            
+            <label for="feeAmount">Fee Amount:</label>
+            <input type="number" id="feeAmount" name="feeAmount" required>
+            
+            <label for="paymentStatus">Payment Status:</label>
+            <select id="paymentStatus" name="paymentStatus" required>
+                <option value="paid">Paid</option>
+                <option value="unpaid">Unpaid</option>
+                <option value="partial">Partial</option>
+            </select>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="feeList">
+            <h2>Fee Records</h2>
+            <ul id="list">
+                <!-- Fee records will be displayed here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+

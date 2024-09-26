@@ -1,1 +1,26 @@
-<p>teacher works!</p>
+
+<body>
+    <div class="container">
+        <h1>Teacher Management</h1>
+        <form id="teacherForm">
+            <label for="teacherName">Teacher Name:</label>
+            <input type="text" id="teacherName" name="teacherName" required>
+            
+            <label for="teacherID">Teacher ID:</label>
+            <input type="text" id="teacherID" name="teacherID" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="teacherList">
+            <h2>Teacher Records</h2>
+            <ul id="list">
+                <!-- Teacher records will be displayed here -->
+            </ul>
+        </div>
+    </div>
+</body>
+

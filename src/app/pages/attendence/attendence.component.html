@@ -1,1 +1,28 @@
-<p>attendence works!</p>
+
+<body>
+    <div class="container">
+        <h1>Attendance Page</h1>
+        <form id="attendanceForm">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+            
+            <label for="attendanceStatus">Attendance Status:</label>
+            <select id="attendanceStatus" name="attendanceStatus" required>
+                <option value="present">Present</option>
+                <option value="absent">Absent</option>
+                <option value="leave">Leave</option>
+            </select>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="attendanceList">
+            <h2>Attendance List</h2>
+            <ul id="list">
+                <!-- Attendance records will be displayed here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
