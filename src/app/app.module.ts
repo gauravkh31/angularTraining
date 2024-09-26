@@ -3,11 +3,13 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { SearchbarComponent } from './searchbar/searchbar.component';
-import { DnameComponent } from './dname/dname.component';
+import { SidebarComponent } from './home/sidebar/sidebar.component';
+import { HeaderComponent } from './home/header/header.component';
+import { FooterComponent } from './home/footer/footer.component';
+import { SearchbarComponent } from './home/searchbar/searchbar.component';
+import { DnameComponent } from './home/dname/dname.component';
+import { AttendenceComponent } from './attendence/attendence.component';
+import { LibraryComponent } from './library/library.component';
 
 
 
@@ -18,7 +20,9 @@ import { DnameComponent } from './dname/dname.component';
     HeaderComponent,
     FooterComponent,
     SearchbarComponent,
-    DnameComponent
+    DnameComponent,
+    AttendenceComponent,
+    LibraryComponent
   ],
   imports: [
     BrowserModule,
