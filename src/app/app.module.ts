@@ -8,7 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearchbarComponent } from './searchbar/searchbar.component';
 import { DnameComponent } from './dname/dname.component';
-kllk
+
 
 
 @NgModule({
