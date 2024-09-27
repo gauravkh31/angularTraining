@@ -56,8 +56,7 @@ const routes: Routes = [
   {
     path: 'timetable',
     component: TimeTableComponent
-  },
-
+  }
 ];
 
 @NgModule({

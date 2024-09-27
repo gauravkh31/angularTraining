@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import {RouterModule,Routes} from '@angular/router'
 import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TimeTableComponent } from './time-table/time-table.component';
@@ -12,6 +13,7 @@ import { FeeManagementComponent } from './fee-management/fee-management.componen
 import { AttendenceComponent } from './attendence/attendence.component';
 import { LibraryComponent } from './library/library.component';
 import { LaundryComponent } from './laundry/laundry.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -27,10 +29,12 @@ import { LaundryComponent } from './laundry/laundry.component';
     FeeManagementComponent,
     AttendenceComponent,
     LibraryComponent,
-    LaundryComponent
+    LaundryComponent,
+    HomeComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [DashboardComponent,
     TimeTableComponent,
@@ -42,6 +46,9 @@ import { LaundryComponent } from './laundry/laundry.component';
     FeeManagementComponent,
     AttendenceComponent,
     LibraryComponent,
-    LaundryComponent],
+    LaundryComponent,
+    HomeComponent,
+    RouterModule
+],
 })
 export class PagesModule { }
