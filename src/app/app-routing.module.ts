@@ -50,10 +50,6 @@ const routes: Routes = [
     component: TeacherComponent
   },
   {
-    path: 'subject',
-    component: Subject
-  },
-  {
     path: 'timetable',
     component: TimeTableComponent
   }
